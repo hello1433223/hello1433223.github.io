@@ -16,7 +16,7 @@ document.ready = function() {
 
 function updateNumbers() {
     //var start_time = 1253980800;
-    var beginTime = "2019-5-2 00:00:00";  
+    var beginTime = "2019-5-1 13:30:00";  
     var start_time = Date.parse(beginTime)
    // var start_time =  new Date("2014-11-11 10:10:10").Format("yyyy-MM-dd hh:mm:ss");
     var duration = parseInt(Date.now()- start_time)/1000;
