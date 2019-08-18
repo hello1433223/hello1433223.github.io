@@ -38,10 +38,10 @@ function updateNumbers() {
     $('.seconds').text(hours + " 时 " + minutes + " 分 " + seconds + " 秒");
     setTimeout("updateNumbers()", 1000);
 }
-// function jumpurl(){  
-//     location='http://localhost:8080/Socket/first_page.jsp';  
-//   }  
-//   function url(){
-//   setTimeout('jumpurl()',5000); 
-//   }
+function jumpurl(){  
+    location="http://www.qigouainiyo.com/jinian.html";  
+  }  
+  function url(){
+  setTimeout('jumpurl()',5000); 
+  }
   
