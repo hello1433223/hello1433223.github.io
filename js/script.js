@@ -37,7 +37,6 @@ function updateNumbers() {
     $('.days-number').text("" + days);
     $('.seconds').text(hours + " 时 " + minutes + " 分 " + seconds + " 秒");
     setTimeout("updateNumbers()", 1000);
-    setTimeout(window.location.href='http://www.qigouainiyo.com/jinian.html',5000);
 }
 
   
