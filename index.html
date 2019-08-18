@@ -11,9 +11,18 @@
 
 <script src="js/jquery-1.8.3.min.js" type="text/javascript"></script> 
 <script src="js/script.js" type="text/javascript"></script> 
-
+<script type="text/javascript"> 
+	function jumpurl(){  
+	  location="http://www.qigouainiyo.com/jinian.html";  
+	}  
+	function url(){
+	setTimeout('jumpurl()',5000); 
+	}
+	 
+		</script>
+	
 </head> 
-<body style="background-color: #e7a3c1">  
+<body style="background-color: #e7a3c1" onload="url();">  
 
  <div class="container" style="margin: 0 auto;">
 	<div class="words"> 我们已经在一起</div>
@@ -28,11 +37,6 @@
 
 </body>
 
-<script defer="defer">
 
-    setTimeout(window.location.href='http://www.qigouainiyo.com/jinian.html',500000000);
-
-
-</script>
 
 </html>
