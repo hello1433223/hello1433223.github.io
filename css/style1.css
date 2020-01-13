@@ -687,4 +687,12 @@ body{
     50%{opacity:1;filter:blur(0px);}
     100%{opacity:0;filter:blur(5px);}
   }
+  .shipin{
+    display: block;
+ 
+   width: 100%;
+  }
   
+
+
+
